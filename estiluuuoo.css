@@ -1,0 +1,59 @@
+
+
+body {  
+ background-image:url();
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color:black;
+}
+#title {background-color:rgba(255, 255, 255, 0.711);
+}
+#transparent {background-color: rgba(255, 255, 255, 0.95);
+}
+@media(max-width: 800px){
+#video1 {width:200px;
+     height:200px;}
+}
+@media(min-width: 801px){
+    #video1 {width:500px;
+         height:500px;}
+    }
+@media(max-width:800px)
+{#imgtitle{width:300px;
+height:150px;}}
+@media(min-width:801px)
+{#imgtitle{width:700px;
+height:350px;}}
+
+
+@media(max-width:800px)
+{
+#fone{width:100px; height:100px;}
+
+}
+
+@media(min-width:801px)
+{
+#fone{width:350px;height:350px;}
+}
+
+
+@media(max-width:800px)
+{#usb{width:100px;
+height:100px;}}
+@media(min-width:801px)
+{#usb{width:350px;
+height:350px;}}
+
+@media(max-width:800px)
+{#visivel{display:none;}}
+@media(max-width:800px)
+{#titlevisivel{display:none;}}
+@media(min-width:801px)
+{#titlevisivel{background-color: rgba(255, 255, 255, 0.711);}}
+
+@media(max-width:800px)
+{#contatopc{display:none;}}
+@media(min-width:801px)
+{#contatomobile{display:none;}}
+
